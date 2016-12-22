@@ -4,9 +4,18 @@ Global Styles
 body {
 background-color:#EF5350;
 }
+a {
+	font-size: 0.75rem;
+}
 /*******************
 Form Card Styles
 ******************/
+.card-header {
+	background-color: #29b6f6;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
 .card-block {  	
    	color: #424242;
 }
@@ -19,4 +28,30 @@ label {
 input {
 	font-family: 'Montserrat', sans-serif;
    	font-weight: 400;	
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #11f558;
+    border-color: #11f558;
+    font-family: 'Montserrat', sans-serif;
+   	font-weight: 700;	 
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #08ca45;
+    border-color: #08ca45;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.btn-primary.dropdown-toggle.focus,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
+    color: #fff;
+    background-color: #069934;
+    border-color: #069934
 }
